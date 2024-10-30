@@ -1,0 +1,16 @@
+[package]
+name = "student_identity_nft"
+version = "1.0.0"
+authors = []
+
+[addresses]
+student_identity_nft_addr='2666f7675ea61df2c18edfe11836460770c828c58901ef160519fa1e08f9e089'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
